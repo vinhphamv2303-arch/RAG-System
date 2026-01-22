@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# ===== Virtual environments =====
+venv/
+.env/
+.venv/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Data / Models =====
+data/
+datasets/
+checkpoints/
+weights/
+models/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ===== Secrets =====
+*.env
+config.yaml
+secrets.json
+
+# ===== Cache =====
+.cache/
