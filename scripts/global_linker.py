@@ -137,7 +137,7 @@ def run_global_linker(preprocessed_dir, final_output_file, log_dir):
 if __name__ == "__main__":
     PROJECT_ROOT = "/home/vinh/projects/rag-system"
     PREPROCESSED_DIR = os.path.join(PROJECT_ROOT, "data/preprocessed")
-    FINAL_DB_FILE = os.path.join(PROJECT_ROOT, "data/final/master_rag_database.json")
+    FINAL_DB_FILE = os.path.join(PROJECT_ROOT, "metadata/master_rag_database.json")
     LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
 
     run_global_linker(PREPROCESSED_DIR, FINAL_DB_FILE, LOG_DIR)
